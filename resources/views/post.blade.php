@@ -1,7 +1,11 @@
-@extends('layouts.blog-post')
+@extends('layouts.blog-home')
 
 
 @section('content')
+
+  <div class="row">
+
+  <div class="col-md-8">
 
 
 
@@ -32,6 +36,8 @@
 
   <hr>
 
+
+
   <div id="disqus_thread"></div>
           <script>
 
@@ -55,4 +61,12 @@
 
 
 <script id="dsq-count-scr" src="//codehacking-l9exs3vrma.disqus.com/count.js" async></script>
+
+</div>
+
+@include('includes.front_sidebar')
+
+</div>
+
+
 @stop
